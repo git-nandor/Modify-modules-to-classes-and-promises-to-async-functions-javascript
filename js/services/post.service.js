@@ -1,4 +1,4 @@
-const PostService = (http => {
+/*const PostService = (http => {
 
     fetchPosts = (userId, top, skip) => {
         const params = {
@@ -16,9 +16,9 @@ const PostService = (http => {
 
 })(http);
 
+*/
 
 
-/*
 class PostServiceClass {
 
     constructor(http) {
@@ -34,12 +34,9 @@ class PostServiceClass {
 
         return this.http.get(`https://jsonplaceholder.typicode.com/posts?${this.http.getQueryString(params)}`);
     }
-
 }
 
 const PostService = new PostServiceClass(http);
-
-*/
 
 
 
